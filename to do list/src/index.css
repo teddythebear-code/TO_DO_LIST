@@ -7,3 +7,30 @@ body{
   background-color: hsl(0, 2%, 10%);
   color: hsl(208, 100%, 97%);
 }
+button{
+    margin-left: 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: none;
+    padding: 0.5rem;
+    color: hsl(33, 100%, 78%);
+    background-color: hsl(0, 0%, 6%);
+}
+button:hover{
+    color: hsl(33, 100%, 88%);
+    background-color: hsl(0, 0%, 13%);
+}
+
+.taskbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1{
+  padding: 1rem 0rem 2rem 0rem;
+}
+ul{
+  padding-top: 1rem;
+  list-style: none;
+}
